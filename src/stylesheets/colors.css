@@ -1,0 +1,205 @@
+/* Colors are defined for reused and css variables */
+:root {
+  --neutral-palette-0: #000000;
+  --neutral-palette-1: #624A47;
+  --neutral-palette-2: #AA4439;
+  --neutral-palette-3: #C63526;
+  --neutral-palette-4: #F21700;
+  --neutral-palette-5: #FF1800;
+  
+  --neutral-shades-0: #000000;
+  --neutral-shades-1: #210e04;
+  --neutral-shades-2: #391508;
+  --neutral-shades-3: #52190a;
+  --neutral-shades-4: #6c1d0c;
+  --neutral-shades-5: #881f0c;
+  --neutral-shades-6: #a4200a;
+  --neutral-shades-7: #c22008;
+  --neutral-shades-8: #e01d05;
+  --neutral-shades-9: #FF1800;
+
+  --neutral-tints-0: #ffffff;
+  --neutral-tints-1: #ffebe2;
+  --neutral-tints-2: #ffd6c6;
+  --neutral-tints-3: #ffc1aa;
+  --neutral-tints-4: #ffac8e;
+  --neutral-tints-5: #ff9674;
+  --neutral-tints-6: #ff7f59;
+  --neutral-tints-7: #ff663f;
+  --neutral-tints-8: #ff4824;
+  --neutral-tints-9: #FF1800;
+
+  --neutral-tones-0: #808080;
+  --neutral-tones-1: #937b73;
+  --neutral-tones-2: #a47567;
+  --neutral-tones-3: #b36f5a;
+  --neutral-tones-4: #c1674e;
+  --neutral-tones-5: #db5434;
+  --neutral-tones-6: #cf5f41;
+  --neutral-tones-7: #e84826;
+  --neutral-tones-8: #f33617;
+  --neutral-tones-9: #FF1800;
+
+
+  --red-palette-0: #2c2c2c;
+  --red-palette-1: #624A47;
+  --red-palette-2: #AA4439;
+  --red-palette-3: #C63526;
+  --red-palette-4: #F21700;
+  --red-palette-5: #FF1800;
+  
+  --red-shades-0: #000000;
+  --red-shades-1: #210e04;
+  --red-shades-2: #391508;
+  --red-shades-3: #52190a;
+  --red-shades-4: #6c1d0c;
+  --red-shades-5: #881f0c;
+  --red-shades-6: #a4200a;
+  --red-shades-7: #c22008;
+  --red-shades-8: #e01d05;
+  --red-shades-9: #FF1800;
+
+  --red-tints-0: #ffffff;
+  --red-tints-1: #ffebe2;
+  --red-tints-2: #ffd6c6;
+  --red-tints-3: #ffc1aa;
+  --red-tints-4: #ffac8e;
+  --red-tints-5: #ff9674;
+  --red-tints-6: #ff7f59;
+  --red-tints-7: #ff663f;
+  --red-tints-8: #ff4824;
+  --red-tints-9: #FF1800;
+
+  --red-tones-0: #808080;
+  --red-tones-1: #937b73;
+  --red-tones-2: #a47567;
+  --red-tones-3: #b36f5a;
+  --red-tones-4: #c1674e;
+  --red-tones-5: #db5434;
+  --red-tones-6: #cf5f41;
+  --red-tones-7: #e84826;
+  --red-tones-8: #f33617;
+  --red-tones-9: #FF1800;
+
+  --blue-palette-0: #2c2c2c;
+  --blue-palette-1: #624A47;
+  --blue-palette-2: #AA4439;
+  --blue-palette-3: #C63526;
+  --blue-palette-4: #F21700;
+  --blue-palette-5: #FF1800;
+  
+  --blue-shades-0: #000000;
+  --blue-shades-1: #210e04;
+  --blue-shades-2: #391508;
+  --blue-shades-3: #52190a;
+  --blue-shades-4: #6c1d0c;
+  --blue-shades-5: #881f0c;
+  --blue-shades-6: #a4200a;
+  --blue-shades-7: #c22008;
+  --blue-shades-8: #e01d05;
+  --blue-shades-9: #FF1800;
+
+  --blue-tints-0: #ffffff;
+  --blue-tints-1: #ffebe2;
+  --blue-tints-2: #ffd6c6;
+  --blue-tints-3: #ffc1aa;
+  --blue-tints-4: #ffac8e;
+  --blue-tints-5: #ff9674;
+  --blue-tints-6: #ff7f59;
+  --blue-tints-7: #ff663f;
+  --blue-tints-8: #ff4824;
+  --blue-tints-9: #FF1800;
+
+  --blue-tones-0: #808080;
+  --blue-tones-1: #937b73;
+  --blue-tones-2: #a47567;
+  --blue-tones-3: #b36f5a;
+  --blue-tones-4: #c1674e;
+  --blue-tones-5: #db5434;
+  --blue-tones-6: #cf5f41;
+  --blue-tones-7: #e84826;
+  --blue-tones-8: #f33617;
+  --blue-tones-9: #FF1800;
+
+  --green-palette-0: #2c2c2c;
+  --green-palette-1: #624A47;
+  --green-palette-2: #AA4439;
+  --green-palette-3: #C63526;
+  --green-palette-4: #F21700;
+  --green-palette-5: #FF1800;
+  
+  --green-shades-0: #000000;
+  --green-shades-1: #210e04;
+  --green-shades-2: #391508;
+  --green-shades-3: #52190a;
+  --green-shades-4: #6c1d0c;
+  --green-shades-5: #881f0c;
+  --green-shades-6: #a4200a;
+  --green-shades-7: #c22008;
+  --green-shades-8: #e01d05;
+  --green-shades-9: #FF1800;
+
+  --green-tints-0: #ffffff;
+  --green-tints-1: #ffebe2;
+  --green-tints-2: #ffd6c6;
+  --green-tints-3: #ffc1aa;
+  --green-tints-4: #ffac8e;
+  --green-tints-5: #ff9674;
+  --green-tints-6: #ff7f59;
+  --green-tints-7: #ff663f;
+  --green-tints-8: #ff4824;
+  --green-tints-9: #FF1800;
+
+  --green-tones-0: #808080;
+  --green-tones-1: #937b73;
+  --green-tones-2: #a47567;
+  --green-tones-3: #b36f5a;
+  --green-tones-4: #c1674e;
+  --green-tones-5: #db5434;
+  --green-tones-6: #cf5f41;
+  --green-tones-7: #e84826;
+  --green-tones-8: #f33617;
+  --green-tones-9: #FF1800;
+
+  --yellow-palette-0: #2c2c2c;
+  --yellow-palette-1: #624A47;
+  --yellow-palette-2: #AA4439;
+  --yellow-palette-3: #C63526;
+  --yellow-palette-4: #F21700;
+  --yellow-palette-5: #FF1800;
+  
+  --yellow-shades-0: #000000;
+  --yellow-shades-1: #210e04;
+  --yellow-shades-2: #391508;
+  --yellow-shades-3: #52190a;
+  --yellow-shades-4: #6c1d0c;
+  --yellow-shades-5: #881f0c;
+  --yellow-shades-6: #a4200a;
+  --yellow-shades-7: #c22008;
+  --yellow-shades-8: #e01d05;
+  --yellow-shades-9: #FF1800;
+
+  --yellow-tints-0: #ffffff;
+  --yellow-tints-1: #ffebe2;
+  --yellow-tints-2: #ffd6c6;
+  --yellow-tints-3: #ffc1aa;
+  --yellow-tints-4: #ffac8e;
+  --yellow-tints-5: #ff9674;
+  --yellow-tints-6: #ff7f59;
+  --yellow-tints-7: #ff663f;
+  --yellow-tints-8: #ff4824;
+  --yellow-tints-9: #FF1800;
+
+  --yellow-tones-0: #808080;
+  --yellow-tones-1: #937b73;
+  --yellow-tones-2: #a47567;
+  --yellow-tones-3: #b36f5a;
+  --yellow-tones-4: #c1674e;
+  --yellow-tones-5: #db5434;
+  --yellow-tones-6: #cf5f41;
+  --yellow-tones-7: #e84826;
+  --yellow-tones-8: #f33617;
+  --yellow-tones-9: #FF1800;
+  
+
+}
