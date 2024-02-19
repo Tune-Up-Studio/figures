@@ -1,0 +1,41 @@
+:root {
+  --blue-palette-0: #999999;
+  --blue-palette-1: #646188;
+  --blue-palette-2: #373276;
+  --blue-palette-3: #110B5C;
+  --blue-palette-4: #140E65;
+  --blue-palette-5: #060054;
+
+  --blue-shades-0: #000000;
+  --blue-shades-1: #06000f;
+  --blue-shades-2: #0b0018;
+  --blue-shades-3: #100020;
+  --blue-shades-4: #120028;
+  --blue-shades-5: #130031;
+  --blue-shades-6: #120039;
+  --blue-shades-7: #0f0042;
+  --blue-shades-8: #0c004b;
+  --blue-shades-9: #060054;
+
+  --blue-tints-0: #ffffff;
+  --blue-tints-1: #e4dfeb;
+  --blue-tints-2: #c9c0d8;
+  --blue-tints-3: #aea2c4;
+  --blue-tints-4: #9484b1;
+  --blue-tints-5: #7a689e;
+  --blue-tints-6: #604d8b;
+  --blue-tints-7: #463379;
+  --blue-tints-8: #2a1a66;
+  --blue-tints-9: #060054;
+
+  --blue-tones-0: #808080;
+  --blue-tones-1: #75717c;
+  --blue-tones-2: #696277;
+  --blue-tones-3: #5e5372;
+  --blue-tones-4: #52456e;
+  --blue-tones-5: #463769;
+  --blue-tones-6: #3a2a64;
+  --blue-tones-7: #2c1c5f;
+  --blue-tones-8: #1c0f59;
+  --blue-tones-9: #060054;
+}

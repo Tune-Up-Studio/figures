@@ -1,0 +1,41 @@
+:root {
+  --green-palette-0: #202C16;
+  --green-palette-1: #5F6957;
+  --green-palette-2: #3C5627;
+  --green-palette-3: #627C4F;
+  --green-palette-4: #587C3C;
+  --green-palette-5: #629838;
+
+  --green-shades-0: #000000;
+  --green-shades-1: #11160b;
+  --green-shades-2: #1b2413;
+  --green-shades-3: #243319;
+  --green-shades-4: #2e421e;
+  --green-shades-5: #385223;
+  --green-shades-6: #426328;
+  --green-shades-7: #4d742e;
+  --green-shades-8: #578633;
+  --green-shades-9: #629838;
+
+  --green-tints-0: #ffffff;
+  --green-tints-1: #eef3e8;
+  --green-tints-2: #dce8d1;
+  --green-tints-3: #cbdcbb;
+  --green-tints-4: #bad1a5;
+  --green-tints-5: #a8c58f;
+  --green-tints-6: #97ba79;
+  --green-tints-7: #86af64;
+  --green-tints-8: #74a34e;
+  --green-tints-9: #629838;
+
+  --green-tones-0: #808080;
+  --green-tones-1: #7e8379;
+  --green-tones-2: #7b8671;
+  --green-tones-3: #78886a;
+  --green-tones-4: #758b62;
+  --green-tones-5: #728e5b;
+  --green-tones-6: #6f9053;
+  --green-tones-7: #6b934a;
+  --green-tones-8: #679542;
+  --green-tones-9: #629838;
+}

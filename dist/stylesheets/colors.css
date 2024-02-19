@@ -1,0 +1,203 @@
+/* Colors are defined for reused and css variables */
+:root {
+  --neutral-palette-0: #000000;
+  --neutral-palette-1: #302D38;
+  --neutral-palette-2: #726C86;
+  --neutral-palette-3: #918BA3;
+  --neutral-palette-4: #B5B1C2;
+  --neutral-palette-5: #FFFEFF;
+  
+  --neutral-shades-0: #000000;
+  --neutral-shades-1: #08070a;
+  --neutral-shades-2: #0f0e11;
+  --neutral-shades-3: #151417;
+  --neutral-shades-4: #19181c;
+  --neutral-shades-5: #1e1c22;
+  --neutral-shades-6: #222027;
+  --neutral-shades-7: #27242d;
+  --neutral-shades-8: #2b2932;
+  --neutral-shades-9: #302d38;
+
+  --neutral-tints-0: #ffffff;
+  --neutral-tints-1: #e5e5e7;
+  --neutral-tints-2: #cccccf;
+  --neutral-tints-3: #b4b3b7;
+  --neutral-tints-4: #9c9aa0;
+  --neutral-tints-5: #85838a;
+  --neutral-tints-6: #6e6c75;
+  --neutral-tints-7: #595660;
+  --neutral-tints-8: #44414b;
+  --neutral-tints-9: #302d38;
+
+  --neutral-tones-0: #808080;
+  --neutral-tones-1: #777678;
+  --neutral-tones-2: #6d6c6f;
+  --neutral-tones-3: #646367;
+  --neutral-tones-4: #5b595f;
+  --neutral-tones-5: #525057;
+  --neutral-tones-6: #49474f;
+  --neutral-tones-7: #413e47;
+  --neutral-tones-8: #383540;
+  --neutral-tones-9: #302d38;
+
+  --red-palette-0: #2c2c2c;
+  --red-palette-1: #624A47;
+  --red-palette-2: #AA4439;
+  --red-palette-3: #C63526;
+  --red-palette-4: #F21700;
+  --red-palette-5: #FF1800;
+  
+  --red-shades-0: #000000;
+  --red-shades-1: #210e04;
+  --red-shades-2: #391508;
+  --red-shades-3: #52190a;
+  --red-shades-4: #6c1d0c;
+  --red-shades-5: #881f0c;
+  --red-shades-6: #a4200a;
+  --red-shades-7: #c22008;
+  --red-shades-8: #e01d05;
+  --red-shades-9: #FF1800;
+
+  --red-tints-0: #ffffff;
+  --red-tints-1: #ffebe2;
+  --red-tints-2: #ffd6c6;
+  --red-tints-3: #ffc1aa;
+  --red-tints-4: #ffac8e;
+  --red-tints-5: #ff9674;
+  --red-tints-6: #ff7f59;
+  --red-tints-7: #ff663f;
+  --red-tints-8: #ff4824;
+  --red-tints-9: #FF1800;
+
+  --red-tones-0: #808080;
+  --red-tones-1: #937b73;
+  --red-tones-2: #a47567;
+  --red-tones-3: #b36f5a;
+  --red-tones-4: #c1674e;
+  --red-tones-5: #db5434;
+  --red-tones-6: #cf5f41;
+  --red-tones-7: #e84826;
+  --red-tones-8: #f33617;
+  --red-tones-9: #FF1800;
+
+  --blue-palette-0: #999999;
+  --blue-palette-1: #646188;
+  --blue-palette-2: #373276;
+  --blue-palette-3: #110B5C;
+  --blue-palette-4: #140E65;
+  --blue-palette-5: #060054;
+
+  --blue-shades-0: #000000;
+  --blue-shades-1: #06000f;
+  --blue-shades-2: #0b0018;
+  --blue-shades-3: #100020;
+  --blue-shades-4: #120028;
+  --blue-shades-5: #130031;
+  --blue-shades-6: #120039;
+  --blue-shades-7: #0f0042;
+  --blue-shades-8: #0c004b;
+  --blue-shades-9: #060054;
+
+  --blue-tints-0: #ffffff;
+  --blue-tints-1: #e4dfeb;
+  --blue-tints-2: #c9c0d8;
+  --blue-tints-3: #aea2c4;
+  --blue-tints-4: #9484b1;
+  --blue-tints-5: #7a689e;
+  --blue-tints-6: #604d8b;
+  --blue-tints-7: #463379;
+  --blue-tints-8: #2a1a66;
+  --blue-tints-9: #060054;
+
+  --blue-tones-0: #808080;
+  --blue-tones-1: #75717c;
+  --blue-tones-2: #696277;
+  --blue-tones-3: #5e5372;
+  --blue-tones-4: #52456e;
+  --blue-tones-5: #463769;
+  --blue-tones-6: #3a2a64;
+  --blue-tones-7: #2c1c5f;
+  --blue-tones-8: #1c0f59;
+  --blue-tones-9: #060054;
+
+  --green-palette-0: #202C16;
+  --green-palette-1: #5F6957;
+  --green-palette-2: #3C5627;
+  --green-palette-3: #627C4F;
+  --green-palette-4: #587C3C;
+  --green-palette-5: #629838;
+
+  --green-shades-0: #000000;
+  --green-shades-1: #11160b;
+  --green-shades-2: #1b2413;
+  --green-shades-3: #243319;
+  --green-shades-4: #2e421e;
+  --green-shades-5: #385223;
+  --green-shades-6: #426328;
+  --green-shades-7: #4d742e;
+  --green-shades-8: #578633;
+  --green-shades-9: #629838;
+
+  --green-tints-0: #ffffff;
+  --green-tints-1: #eef3e8;
+  --green-tints-2: #dce8d1;
+  --green-tints-3: #cbdcbb;
+  --green-tints-4: #bad1a5;
+  --green-tints-5: #a8c58f;
+  --green-tints-6: #97ba79;
+  --green-tints-7: #86af64;
+  --green-tints-8: #74a34e;
+  --green-tints-9: #629838;
+
+  --green-tones-0: #808080;
+  --green-tones-1: #7e8379;
+  --green-tones-2: #7b8671;
+  --green-tones-3: #78886a;
+  --green-tones-4: #758b62;
+  --green-tones-5: #728e5b;
+  --green-tones-6: #6f9053;
+  --green-tones-7: #6b934a;
+  --green-tones-8: #679542;
+  --green-tones-9: #629838;
+
+  --yellow-palette-0: #41320A;
+  --yellow-palette-1: #755606;
+  --yellow-palette-2: #AD7E05;
+  --yellow-palette-3: #C89100;
+  --yellow-palette-4: #EAA800;
+  --yellow-palette-5: #FFB700;
+
+  --yellow-shades-0: #000000;
+  --yellow-shades-1: #1f180a;
+  --yellow-shades-2: #372911;
+  --yellow-shades-3: #503b14;
+  --yellow-shades-4: #6b4e15;
+  --yellow-shades-5: #866116;
+  --yellow-shades-6: #a37615;
+  --yellow-shades-7: #c18b12;
+  --yellow-shades-8: #e0a10c;
+  --yellow-shades-9: #FFB700;
+
+  --yellow-tints-0: #ffffff;
+  --yellow-tints-1: #fff7e7;
+  --yellow-tints-2: #ffefcf;
+  --yellow-tints-3: #ffe6b7;
+  --yellow-tints-4: #ffdea0;
+  --yellow-tints-5: #ffd688;
+  --yellow-tints-6: #ffce6f;
+  --yellow-tints-7: #ffc755;
+  --yellow-tints-8: #ffbf37;
+  --yellow-tints-9: #FFB700;
+
+
+  --yellow-tones-0: #808080;
+  --yellow-tones-1: #908678;
+  --yellow-tones-2: #9f8c6f;
+  --yellow-tones-3: #ae9266;
+  --yellow-tones-4: #bc985d;
+  --yellow-tones-5: #c99e52;
+  --yellow-tones-6: #d7a447;
+  --yellow-tones-7: #e4aa39;
+  --yellow-tones-8: #f2b127;
+  --yellow-tones-9: #FFB700;
+}

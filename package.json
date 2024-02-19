@@ -1,0 +1,32 @@
+{
+  "name": "@tune-up-studio/figures",
+  "version": "0.0.1",
+  "description": "style definitions for tuneup studio",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "compile": "npx tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tune-Up-Studio/figures.git"
+  },
+  "keywords": [
+    "style",
+    "token",
+    "definition"
+  ],
+  "author": "HoJoon Eum",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Tune-Up-Studio/figures/issues"
+  },
+  "homepage": "https://github.com/Tune-Up-Studio/figures#readme",
+  "devDependencies": {
+    "typescript": "^5.3.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "types": "./dist/index.d.ts"
+}
