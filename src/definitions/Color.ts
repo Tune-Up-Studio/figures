@@ -6,7 +6,7 @@ export enum ColorVariation {
   neutral = 'neutral', red = 'red', blue = 'blue', green = 'green', yellow = 'yellow'
 }
 
-const Palette: Record<string, Colors> = {
+export const Palette: Record<string, Colors> = {
   'neutral': [
     '#000000',
     '#302D38',
@@ -49,7 +49,7 @@ const Palette: Record<string, Colors> = {
   ]
 }
 
-const Shades: Record<string, Colors> = {
+export const Shades: Record<string, Colors> = {
   'neutral': [
     '#000000',
     '#08070a',
@@ -112,7 +112,7 @@ const Shades: Record<string, Colors> = {
   ]
 }
 
-const Tints: Record<string, Colors> = {
+export const Tints: Record<string, Colors> = {
   'neutral': [
     '#ffffff',
     '#e5e5e7',
@@ -175,7 +175,7 @@ const Tints: Record<string, Colors> = {
   ]
 }
 
-const Tones: Record<string, Colors> = {
+export const Tones: Record<string, Colors> = {
   'neutral': [
     '#808080',
     '#777678',

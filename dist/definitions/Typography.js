@@ -23,7 +23,7 @@ const TYPO_LETTERSPACING_DEFAULT = 0;
  * @MidContrast Major Third, Major Second, Perfect Fourth
  * @LowContrast Minor Second, Major Second
  */
-const TypoScaleMap = {
+export const TypoScaleMap = {
     MinorSecond: 1.067,
     MajorSecond: 1.125,
     MinorThird: 1.200,

@@ -7,7 +7,7 @@ export var ColorVariation;
     ColorVariation["green"] = "green";
     ColorVariation["yellow"] = "yellow";
 })(ColorVariation || (ColorVariation = {}));
-const Palette = {
+export const Palette = {
     'neutral': [
         '#000000',
         '#302D38',
@@ -49,7 +49,7 @@ const Palette = {
         '#FFB700',
     ]
 };
-const Shades = {
+export const Shades = {
     'neutral': [
         '#000000',
         '#08070a',
@@ -111,7 +111,7 @@ const Shades = {
         '#FFB700',
     ]
 };
-const Tints = {
+export const Tints = {
     'neutral': [
         '#ffffff',
         '#e5e5e7',
@@ -173,7 +173,7 @@ const Tints = {
         '#FFB700',
     ]
 };
-const Tones = {
+export const Tones = {
     'neutral': [
         '#808080',
         '#777678',

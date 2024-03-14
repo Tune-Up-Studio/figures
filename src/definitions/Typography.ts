@@ -24,7 +24,7 @@ const TYPO_LETTERSPACING_DEFAULT: Readonly<number> = 0;
  * @MidContrast Major Third, Major Second, Perfect Fourth
  * @LowContrast Minor Second, Major Second
  */
-const TypoScaleMap: Readonly<Record<string, number>> = {
+export const TypoScaleMap: Readonly<Record<string, number>> = {
   MinorSecond: 1.067,
   MajorSecond: 1.125,
   MinorThird: 1.200,

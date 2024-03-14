@@ -1,0 +1,23 @@
+{
+  "css": {
+    "sources": [
+      "./dist/definitions/Color.js",
+      "./dist/definitions/Curve.js",
+      "./dist/definitions/Depth.js",
+      "./dist/definitions/Space.js",
+      "./dist/definitions/Thickness.js",
+      "./dist/definitions/Typography.js"
+    ],
+    "outFileName": "designtokens",
+    "outDir": "./dist/css",
+    "bundled": true,
+    "selector": ":root",
+    "prefix": ""
+  },
+  "json": {
+    "sources": ["./tokens/*.js"],
+    "outFileName": "cssvariables",
+    "outDir": "./dist/json",
+    "bundled": true
+  }
+}

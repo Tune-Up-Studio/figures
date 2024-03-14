@@ -7,6 +7,10 @@ export declare enum ColorVariation {
     green = "green",
     yellow = "yellow"
 }
+export declare const Palette: Record<string, Colors>;
+export declare const Shades: Record<string, Colors>;
+export declare const Tints: Record<string, Colors>;
+export declare const Tones: Record<string, Colors>;
 /**
  * Colors have 6 levels.
  * Each is a integer from 0 to 5.

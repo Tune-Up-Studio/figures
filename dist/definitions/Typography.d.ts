@@ -1,3 +1,9 @@
+/**
+ * @HighContrast Augmented Fourth, Perfect Fifth, Golden Ratio
+ * @MidContrast Major Third, Major Second, Perfect Fourth
+ * @LowContrast Minor Second, Major Second
+ */
+export declare const TypoScaleMap: Readonly<Record<string, number>>;
 export type TypoVariant = {
     fontSize?: string;
     fontWeight?: '300' | '400' | '500' | '600' | '700' | '800';
