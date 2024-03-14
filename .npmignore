@@ -1,1 +1,4 @@
-./src/utils/*
+src
+node_modules
+.gitignore
+tokens-to.config.json
