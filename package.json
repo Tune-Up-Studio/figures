@@ -14,7 +14,7 @@
     "./package.json": "./package.json"
   },
   "scripts": {
-    "transpile": "npx tsc",
+    "compile": "npx tsc",
     "js2css": "tokens-to js2css"
   },
   "repository": {
