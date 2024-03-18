@@ -19,5 +19,5 @@ export const Curve = {
     Lighter: 20,
     Tight: 30,
     Tighter: 60,
-    Full: 100
+    Full: 100,
 };

@@ -11,7 +11,7 @@ export function HarmonicScale(initialTerm, n, r) {
         n: n,
         r: r,
         ith(i) {
-            return initialTerm * (Math.pow(this.r, (i / this.n)));
+            return initialTerm * (this.r ** (i / this.n));
         }
     };
 }

@@ -23,15 +23,15 @@ const TYPO_LETTERSPACING_DEFAULT = 0;
  * @MidContrast Major Third, Major Second, Perfect Fourth
  * @LowContrast Minor Second, Major Second
  */
-const TypoScaleMap = {
+export const TypoScaleMap = {
     MinorSecond: 1.067,
     MajorSecond: 1.125,
-    MinorThird: 1.200,
-    MajorThird: 1.250,
+    MinorThird: 1.2,
+    MajorThird: 1.25,
     PerfectFourth: 1.333,
     AugmentedFourth: 1.414,
-    PerfectFifth: 1.500,
-    GoldenRatio: 1.618
+    PerfectFifth: 1.5,
+    GoldenRatio: 1.618,
 };
 /**
  * @Bold Value for bold should be heavy enough. It makes contrast

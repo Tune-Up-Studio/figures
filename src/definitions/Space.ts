@@ -30,13 +30,13 @@ export interface SpaceFactory {
 }
 
 /**
- * 
+ * Create SpaceFactory
  * @returns a SpaceFactory for getting space at each level.
  */
-export function spaceFactory(): SpaceFactory {
+export function createSpaceFactory(): SpaceFactory {
   return {
     getLevelOf(level: SpaceLevel) {
       return spacing(level);
-    }
-  }
+    },
+  };
 }
