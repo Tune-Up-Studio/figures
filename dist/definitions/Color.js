@@ -1,4 +1,4 @@
-export const COLORLEVELS = 10;
+export const VARIATION_LEVELS = 10;
 export var ColorVariation;
 (function (ColorVariation) {
     ColorVariation["neutral"] = "neutral";
@@ -8,49 +8,14 @@ export var ColorVariation;
     ColorVariation["yellow"] = "yellow";
 })(ColorVariation || (ColorVariation = {}));
 export const Palette = {
-    'neutral': [
-        '#000000',
-        '#302D38',
-        '#726C86',
-        '#918BA3',
-        '#B5B1C2',
-        '#FFFEFF',
-    ],
-    'red': [
-        '#2C2C2C',
-        '#624A47',
-        '#AA4439',
-        '#C63526',
-        '#F21700',
-        '#FF1800',
-    ],
-    'green': [
-        '#202C16',
-        '#5F6957',
-        '#3C5627',
-        '#627C4F',
-        '#587C3C',
-        '#629838',
-    ],
-    'blue': [
-        '#999999',
-        '#646188',
-        '#373276',
-        '#110B5C',
-        '#140E65',
-        '#060054',
-    ],
-    'yellow': [
-        '#41320A',
-        '#755606',
-        '#AD7E05',
-        '#C89100',
-        '#EAA800',
-        '#FFB700',
-    ]
+    neutral: ['#000000', '#302D38', '#726C86', '#918BA3', '#B5B1C2', '#FFFEFF'],
+    red: ['#2C2C2C', '#624A47', '#AA4439', '#C63526', '#F21700', '#FF1800'],
+    green: ['#202C16', '#5F6957', '#3C5627', '#627C4F', '#587C3C', '#629838'],
+    blue: ['#999999', '#646188', '#373276', '#110B5C', '#140E65', '#060054'],
+    yellow: ['#41320A', '#755606', '#AD7E05', '#C89100', '#EAA800', '#FFB700'],
 };
 export const Shades = {
-    'neutral': [
+    neutral: [
         '#000000',
         '#08070a',
         '#0f0e11',
@@ -62,7 +27,7 @@ export const Shades = {
         '#2b2932',
         '#302d38',
     ],
-    'red': [
+    red: [
         '#000000',
         '#210e04',
         '#391508',
@@ -74,7 +39,7 @@ export const Shades = {
         '#e01d05',
         '#FF1800',
     ],
-    'green': [
+    green: [
         '#000000',
         '#11160b',
         '#1b2413',
@@ -86,7 +51,7 @@ export const Shades = {
         '#578633',
         '#629838',
     ],
-    'blue': [
+    blue: [
         '#000000',
         '#06000f',
         '#0b0018',
@@ -98,7 +63,7 @@ export const Shades = {
         '#0c004b',
         '#060054',
     ],
-    'yellow': [
+    yellow: [
         '#000000',
         '#1f180a',
         '#372911',
@@ -109,10 +74,10 @@ export const Shades = {
         '#c18b12',
         '#e0a10c',
         '#FFB700',
-    ]
+    ],
 };
 export const Tints = {
-    'neutral': [
+    neutral: [
         '#ffffff',
         '#e5e5e7',
         '#cccccf',
@@ -124,7 +89,7 @@ export const Tints = {
         '#44414b',
         '#302d38',
     ],
-    'red': [
+    red: [
         '#ffffff',
         '#ffebe2',
         '#ffd6c6',
@@ -136,7 +101,7 @@ export const Tints = {
         '#ff4824',
         '#FF1800',
     ],
-    'green': [
+    green: [
         '#ffffff',
         '#eef3e8',
         '#dce8d1',
@@ -148,7 +113,7 @@ export const Tints = {
         '#74a34e',
         '#629838',
     ],
-    'blue': [
+    blue: [
         '#ffffff',
         '#e4dfeb',
         '#c9c0d8',
@@ -160,7 +125,7 @@ export const Tints = {
         '#2a1a66',
         '#060054',
     ],
-    'yellow': [
+    yellow: [
         '#ffffff',
         '#fff7e7',
         '#ffefcf',
@@ -171,10 +136,10 @@ export const Tints = {
         '#ffc755',
         '#ffbf37',
         '#FFB700',
-    ]
+    ],
 };
 export const Tones = {
-    'neutral': [
+    neutral: [
         '#808080',
         '#777678',
         '#6d6c6f',
@@ -186,7 +151,7 @@ export const Tones = {
         '#383540',
         '#302d38',
     ],
-    'red': [
+    red: [
         '#808080',
         '#937b73',
         '#a47567',
@@ -198,7 +163,7 @@ export const Tones = {
         '#f33617',
         '#FF1800',
     ],
-    'green': [
+    green: [
         '#808080',
         '#7e8379',
         '#7b8671',
@@ -210,7 +175,7 @@ export const Tones = {
         '#679542',
         '#629838',
     ],
-    'blue': [
+    blue: [
         '#808080',
         '#75717c',
         '#696277',
@@ -222,7 +187,7 @@ export const Tones = {
         '#1c0f59',
         '#060054',
     ],
-    'yellow': [
+    yellow: [
         '#808080',
         '#908678',
         '#9f8c6f',
@@ -233,20 +198,19 @@ export const Tones = {
         '#e4aa39',
         '#f2b127',
         '#FFB700',
-    ]
+    ],
 };
 /**
  * Colors have 6 levels.
  * Each is a integer from 0 to 5.
  * As level rises, color gets brighter.
  */
-export const COLOR_LEVELS = 6;
 const SemanticColorNames = {
-    'red': 'MeltingFlame',
-    'blue': 'FreezingSea',
-    'green': 'CalmLeaf',
-    'yellow': 'TwinkeStar',
-    'neutral': 'Neutral'
+    red: 'MeltingFlame',
+    blue: 'FreezingSea',
+    green: 'CalmLeaf',
+    yellow: 'TwinkleStar',
+    neutral: 'Neutral',
 };
 export var Color;
 (function (Color) {
@@ -257,24 +221,24 @@ export var Color;
     Color["YELLOW"] = "yellow";
 })(Color || (Color = {}));
 /**
- *
- * @param color
- * @returns
+ * Get color collection.
+ * @param color predefined colors, neutral, red, blue, green, yellow
+ * @returns color collection for each.
  */
 function getColorCollection(color) {
     return {
-        'name': SemanticColorNames[color],
-        'palette': Palette[color],
-        'shades': Shades[color],
-        'tones': Tones[color],
-        'tints': Tints[color]
+        name: SemanticColorNames[color],
+        palette: Palette[color],
+        shades: Shades[color],
+        tones: Tones[color],
+        tints: Tints[color],
     };
 }
 /**
- *
+ * Create ColorFactory for each color.
  * @returns a ColorFactory for getting color collections.
  */
-export function colorFactory() {
+export function createColorFactory() {
     return {
         getNeutralColors() {
             return getColorCollection(Color.NEUTRAL);
@@ -290,6 +254,6 @@ export function colorFactory() {
         },
         getYellowColors() {
             return getColorCollection(Color.YELLOW);
-        }
+        },
     };
 }

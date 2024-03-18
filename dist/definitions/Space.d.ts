@@ -18,7 +18,7 @@ export interface SpaceFactory {
     getLevelOf(level: SpaceLevel): number;
 }
 /**
- *
+ * Create SpaceFactory
  * @returns a SpaceFactory for getting space at each level.
  */
-export declare function spaceFactory(): SpaceFactory;
+export declare function createSpaceFactory(): SpaceFactory;

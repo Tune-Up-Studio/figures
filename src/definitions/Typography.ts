@@ -27,19 +27,19 @@ const TYPO_LETTERSPACING_DEFAULT: Readonly<number> = 0;
 export const TypoScaleMap: Readonly<Record<string, number>> = {
   MinorSecond: 1.067,
   MajorSecond: 1.125,
-  MinorThird: 1.200,
-  MajorThird: 1.250,
+  MinorThird: 1.2,
+  MajorThird: 1.25,
   PerfectFourth: 1.333,
   AugmentedFourth: 1.414,
-  PerfectFifth: 1.500,
-  GoldenRatio: 1.618
-}
+  PerfectFifth: 1.5,
+  GoldenRatio: 1.618,
+};
 
 export type TypoVariant = {
   fontSize?: string;
   fontWeight?: '300' | '400' | '500' | '600' | '700' | '800';
   fontStyle?: 'normal' | 'italic' | 'bold';
-}
+};
 export type FontStyle = 'normal' | 'italic' | 'bold';
 export type FontWeight = '300' | '400' | '500' | '600' | '700' | '800';
 
@@ -53,7 +53,7 @@ export const TypoWeight: Readonly<Record<string, number>> = {
   BoldLight: 600,
   Bold: 700,
   BoldStrong: 800,
-}
+};
 
 /**
  * TypoScale can be used in certain unit such as px.
@@ -73,5 +73,5 @@ export enum TypoScale {
   SM = 28,
   XSM = 21,
   XXSM = 16,
-  XXXSM = 12
+  XXXSM = 12,
 }

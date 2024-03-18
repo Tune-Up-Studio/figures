@@ -4,15 +4,21 @@
  * Each level has its semantic name.
  */
 export const CURVES = 6;
-export type CurveVariant = 'Slighter' | 'Slight' | 'Lighter' | 'Tight' | 'Tighter' | 'Full';
+export type CurveVariant =
+  | 'Slighter'
+  | 'Slight'
+  | 'Lighter'
+  | 'Tight'
+  | 'Tighter'
+  | 'Full';
 
 export enum CurveLevel {
   zero = 'Slighter',
   one = 'Slight',
-  two = 'Lighter', 
-  three = 'Tight', 
-  four = 'Tighter', 
-  five = 'Full'
+  two = 'Lighter',
+  three = 'Tight',
+  four = 'Tighter',
+  five = 'Full',
 }
 
 export const Curve = {
@@ -21,5 +27,5 @@ export const Curve = {
   Lighter: 20,
   Tight: 30,
   Tighter: 60,
-  Full: 100
-}
+  Full: 100,
+};

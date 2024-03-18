@@ -19,13 +19,13 @@ export function toRem(numVal) {
     return numVal / 16 + SPACE_UNIT_RELATIVE;
 }
 /**
- *
+ * Create SpaceFactory
  * @returns a SpaceFactory for getting space at each level.
  */
-export function spaceFactory() {
+export function createSpaceFactory() {
     return {
         getLevelOf(level) {
             return spacing(level);
-        }
+        },
     };
 }

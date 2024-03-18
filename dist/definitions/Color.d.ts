@@ -1,5 +1,5 @@
 export type Colors = string[];
-export declare const COLORLEVELS = 10;
+export declare const VARIATION_LEVELS = 10;
 export declare enum ColorVariation {
     neutral = "neutral",
     red = "red",
@@ -11,12 +11,6 @@ export declare const Palette: Record<string, Colors>;
 export declare const Shades: Record<string, Colors>;
 export declare const Tints: Record<string, Colors>;
 export declare const Tones: Record<string, Colors>;
-/**
- * Colors have 6 levels.
- * Each is a integer from 0 to 5.
- * As level rises, color gets brighter.
- */
-export declare const COLOR_LEVELS = 6;
 export declare enum Color {
     NEUTRAL = "neutral",
     RED = "red",
@@ -31,7 +25,7 @@ export interface ColorCollection {
     tones: Colors;
     tints: Colors;
 }
-export type ColorLevel = 0 | 1 | 2 | 3 | 4 | 5;
+export type ColorLevel = 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9;
 export interface ColorMap {
     of(level: ColorLevel): string;
 }
@@ -43,7 +37,7 @@ export interface ColorFactory {
     getYellowColors(): ColorCollection;
 }
 /**
- *
+ * Create ColorFactory for each color.
  * @returns a ColorFactory for getting color collections.
  */
-export declare function colorFactory(): ColorFactory;
+export declare function createColorFactory(): ColorFactory;

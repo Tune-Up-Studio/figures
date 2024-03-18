@@ -19,5 +19,5 @@ export const Depth = {
     First: 20,
     Second: 30,
     Third: 60,
-    Roof: 100
+    Roof: 100,
 };
