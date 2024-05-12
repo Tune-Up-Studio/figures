@@ -1,9 +1,10 @@
 export var DepthLevel;
 (function (DepthLevel) {
-    DepthLevel["zero"] = "Basement";
-    DepthLevel["one"] = "Lobby";
-    DepthLevel["two"] = "First";
-    DepthLevel["three"] = "Second";
-    DepthLevel["four"] = "Third";
-    DepthLevel["five"] = "Roof";
+    DepthLevel["zero"] = "Deepest";
+    DepthLevel["one"] = "Deeper";
+    DepthLevel["two"] = "Deep";
+    DepthLevel["three"] = "Shallow";
+    DepthLevel["four"] = "Ground";
+    DepthLevel["five"] = "Land";
+    DepthLevel["six"] = "Hill";
 })(DepthLevel || (DepthLevel = {}));

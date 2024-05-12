@@ -3,12 +3,13 @@
  * Inspired by Atlassian elevation, gives semantic name for each depth.
  * https://atlassian.design/foundations/elevation/
  */
-export declare const DEPTHS = 6;
+export declare const DEPTHS = 7;
 export declare const Depth: {
-    Basement: number;
-    Lobby: number;
-    First: number;
-    Second: number;
-    Third: number;
-    Roof: number;
+    Deepest: number;
+    Deeper: number;
+    Deep: number;
+    Shallow: number;
+    Ground: number;
+    Land: number;
+    Hill: number;
 };

@@ -3,12 +3,13 @@
  * Inspired by Atlassian elevation, gives semantic name for each depth.
  * https://atlassian.design/foundations/elevation/
  */
-export type Depth = 'Basement' | 'Lobby' | 'First' | 'Second' | 'Third' | 'Roof';
+export type Depth = 'Deepest' | 'Deeper' | 'Deep' | 'Shallow' | 'Ground' | 'Land' | 'Hill';
 export declare enum DepthLevel {
-    zero = "Basement",
-    one = "Lobby",
-    two = "First",
-    three = "Second",
-    four = "Third",
-    five = "Roof"
+    zero = "Deepest",
+    one = "Deeper",
+    two = "Deep",
+    three = "Shallow",
+    four = "Ground",
+    five = "Land",
+    six = "Hill"
 }

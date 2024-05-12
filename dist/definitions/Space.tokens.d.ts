@@ -9,3 +9,4 @@ export declare const SPACES = 10;
 export declare const SPACE_BASE_SIZE = 8;
 export declare const SPACE_UNIT_FIXED = "px";
 export declare const SPACE_UNIT_RELATIVE = "rem";
+export declare const Spacing: number[];
