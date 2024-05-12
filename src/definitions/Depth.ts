@@ -4,18 +4,20 @@
  * https://atlassian.design/foundations/elevation/
  */
 export type Depth =
-  | 'Basement'
-  | 'Lobby'
-  | 'First'
-  | 'Second'
-  | 'Third'
-  | 'Roof';
+  | 'Deepest'
+  | 'Deeper'
+  | 'Deep'
+  | 'Shallow'
+  | 'Ground'
+  | 'Land'
+  | 'Hill';
 
 export enum DepthLevel {
-  zero = 'Basement',
-  one = 'Lobby',
-  two = 'First',
-  three = 'Second',
-  four = 'Third',
-  five = 'Roof',
+  zero = 'Deepest',
+  one = 'Deeper',
+  two = 'Deep',
+  three = 'Shallow',
+  four = 'Ground',
+  five = 'Land',
+  six = 'Hill',
 }
