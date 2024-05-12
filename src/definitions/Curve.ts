@@ -3,7 +3,6 @@
  * It has 6 levels.
  * Each level has its semantic name.
  */
-export const CURVES = 6;
 export type CurveVariant =
   | 'Slighter'
   | 'Slight'
@@ -20,12 +19,3 @@ export enum CurveLevel {
   four = 'Tighter',
   five = 'Full',
 }
-
-export const Curve = {
-  Slighter: 1,
-  Slight: 10,
-  Lighter: 20,
-  Tight: 30,
-  Tighter: 60,
-  Full: 100,
-};

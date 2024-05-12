@@ -1,3 +1,9 @@
+import {
+  SPACE_BASE_SIZE,
+  SPACE_UNIT_FIXED,
+  SPACE_UNIT_RELATIVE,
+} from './Space.tokens';
+
 /**
  * Spaces are defined to achieve consistent spacing between layouts.
  * Inspired by Atlassian spacing, use 8px base unit.
@@ -5,11 +11,6 @@
  * 1rem equals to 16px(which is twice of a unit).
  * https://atlassian.design/foundations/spacing
  */
-export const SPACES = 10;
-export const SPACE_BASE_SIZE = 8;
-export const SPACE_UNIT_FIXED = 'px';
-export const SPACE_UNIT_RELATIVE = 'rem';
-
 export type SpaceLevel = 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10;
 export type Multiplicand = SpaceLevel;
 

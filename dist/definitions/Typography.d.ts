@@ -1,9 +1,18 @@
 /**
- * @HighContrast Augmented Fourth, Perfect Fifth, Golden Ratio
- * @MidContrast Major Third, Major Second, Perfect Fourth
- * @LowContrast Minor Second, Major Second
+ * Typography for figures.
+ * Typography for figures focuses on Text hierarchy and contrast within layout.
+ * Following properties should be considered for Typography.
+ * Based on typographic scale
+ * https://spencermortensen.com/articles/typographic-scale/
+ * ithTerm = 0thTerm * pow(r, i/n)
+ * - Readability
+ * - Size
+ * - Weight
+ * - Color
+ * - Space
+ * Inspired by Atlassian Typography
+ * https://atlassian.design/foundations/typography/
  */
-export declare const TypoScaleMap: Readonly<Record<string, number>>;
 export type TypoVariant = {
     fontSize?: string;
     fontWeight?: '300' | '400' | '500' | '600' | '700' | '800';
@@ -12,17 +21,11 @@ export type TypoVariant = {
 export type FontStyle = 'normal' | 'italic' | 'bold';
 export type FontWeight = '300' | '400' | '500' | '600' | '700' | '800';
 /**
- * @Bold Value for bold should be heavy enough. It makes contrast
- */
-export declare const TypoWeight: Readonly<Record<string, number>>;
-/**
  * TypoScale can be used in certain unit such as px.
  * It has 9 levels from bottom to top.
  * Base scale is assigned to paragraph.
  * PerfectFourth is applied.
  */
-export declare const BASE_SCALE = 12;
-export declare const BASE_LINE_HEIGHT = 16;
 export declare enum TypoScale {
     XXXL = 120,
     XXL = 90,

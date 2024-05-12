@@ -1,5 +1,4 @@
 export type Colors = string[];
-export declare const VARIATION_LEVELS = 10;
 export declare enum ColorVariation {
     neutral = "neutral",
     red = "red",
@@ -7,10 +6,6 @@ export declare enum ColorVariation {
     green = "green",
     yellow = "yellow"
 }
-export declare const Palette: Record<string, Colors>;
-export declare const Shades: Record<string, Colors>;
-export declare const Tints: Record<string, Colors>;
-export declare const Tones: Record<string, Colors>;
 export declare enum Color {
     NEUTRAL = "neutral",
     RED = "red",
