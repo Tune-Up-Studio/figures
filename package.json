@@ -1,6 +1,6 @@
 {
   "name": "@tune-up-studio/figures",
-  "version": "0.0.7",
+  "version": "0.1.0",
   "description": "style definitions for tuneup studio",
   "main": "./dist/index.js",
   "type": "module",
