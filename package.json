@@ -11,7 +11,17 @@
       "import": "./dist/index.js",
       "default": "./dist/index.js"
     },
-    "./css/designtokens.css": "./dist/css/designtokens.css",
+    "./colors": {
+      "types": "./dist/definitions/color.d.ts",
+      "import": "./dist/definitions/color.js",
+      "default": "./dist/definitions/color.js"
+    },
+    "./colortokens": {
+      "types": "./dist/definitions/color.tokens.d.ts",
+      "import": "./dist/definitions/color.tokens.js",
+      "default": "./dist/definitions/color.tokens.js"
+    },
+    "./designtokens.css": "./dist/css/designtokens.css",
     "./package.json": "./package.json"
   },
   "scripts": {
