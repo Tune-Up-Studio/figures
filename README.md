@@ -1,4 +1,6 @@
 <h1 align="center">Figures</h1>
+
+[🇯🇵 Japanese](./README_JP.md)  
 Definitions for design components.  
 Not components depend on certain library or framework, only the definitions and utility functions are served.
 
